@@ -1,0 +1,82 @@
+
+history
+    1  git --version
+    2  ls -ltr
+    3  ls
+    4  ls -l
+    5  ls
+    6  ls -lt
+    7  ls -ltr
+    8  clear
+    9  pwd
+   10  cd desktop
+   11  ls
+   12  cd gitproject
+   13  cd ..
+   14  mkdir devops
+   15  exit
+   16  pwd
+   17  rm devops
+   18  rmdir devops
+   19  cd gitproject
+   20  git --version
+   21  git init
+   22  git status
+   23  git status
+   24  git status
+   25  git add a.txt
+   26  git status
+   27  git rm --cached a.txt
+   28  git status
+   29  git add a.txt
+   30  git status
+   31  git status
+   32  git status
+   33  git restore a.txt
+   34  git status
+   35  git status
+   36  git add a.txt
+   37  git status
+   38  git status
+   39  git restore a.txt
+   40  git status
+   41  git add a.txt
+   42  git status
+   43  git commit\
+   44  git commit
+   45  git config --global user.email "info@skillrary.com"
+   46  git config --global user.name "Mithun"
+   47  git commit
+   48  git status
+   49  git log
+   50  history
+=======================================
+===================================
+git --version -->
+git init --> Initializing Git Repository
+git status --> 
+git add
+git restore
+git rm --cached a.txt
+git commit
+git log
+===================
+======================
+
+9:43 PM
+
+SkillRary Trainer
+
+git show 306c20ad9030eccbaa7f73a952833fc50810ab06
+git commit -m "Added 3rd line to b.txt"
+git add b*
+git restore --staged *
+git add .
+git add *
+git log -2
+git log --oneline
+git log -p
+git switch -
+git checkout master
+git checkout e2c5492
+
