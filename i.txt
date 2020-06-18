@@ -1,1 +1,2 @@
- This is my first line in i.txt..
+ This is my first line in i.txt.
+ This is my second line in i.txt.
