@@ -79,4 +79,117 @@ git log -p
 git switch -
 git checkout master
 git checkout e2c5492
+================================
+
+
+405  git log --oneline --all --graph
+  406  git checkout 4dd12eb
+  407  git checkout -b toooldrel
+  408  vi ba.txt
+  409  git add ba.txt
+  410  git commit -m "Added line to ba.txt"
+  411  git log --oneline --all --graph
+  412  git checkout master
+  413  git branch
+  414  git log --oneline
+  415  git log --oneline --all
+  416  git log --oneline --all --graph
+  417  git merge bugfix
+  418  git log --oneline --all --graph
+  419  cat b.txt
+  420  cat c.txt
+  421  cat d.txt
+  422  git checkout toooldrel
+  423  git checkout -b toooldrelbugfix
+  424  vi b.txt
+  425  git add b.txt
+  426  git commit -m "Added bugfix"
+  427  git log --oneline --all --graph
+  428  history
+==================================
+
+432  git status
+  433  cd gitproject/
+  434  git status
+  435  git log --oneline
+  436  git log --oneline --all
+  437  git branch
+  438  git log --oneline --all --graph
+  439  ls -ltr
+  440  git checkout -b testmerge
+  441  vi h.txt
+  442  git add .
+  443  git commit -m "Added thrid line to h.txt"
+  444  git log --oneline
+  445  cat h.txt
+  446  git checkout master
+  447  cat h.txt
+  448  git merge testmerge
+  449  cat h.txt
+  450  git checkout testmerge
+  451  vi h.txt
+  452  git add .
+  453  git commit -m "Added fourth line in h.txt from testmerge"
+  454  cat h.txt
+  455  git checkout master
+  456  cat h.txt
+  457  vi h.txt
+  458  git add .
+  459  git commit -m "Added fourth line in h.txt from master branch"
+  460  git merge testmerge
+  461  git status
+  462  git merge --abort
+  463  git merge testmerge
+  464  vi h.txt
+  465  git add h.txt
+  466  git commit -m "Resolved conflict with master and testmerge"
+  467  clear
+  468  git log --oneline
+  469  git checkout -b somefeature
+  470  vi i.txt
+  471  git add
+
+
+
+
+9:23 PM
+
+Mithun Ashok
+
+471  git add .
+  472  git commit -m "Added firstline to i.txt"
+  473  git log --oneline
+  474  vi i.txt
+  475  git add i.txt
+  476  git commit -m "Added second line to i.txt"
+  477  git log --oneline
+  478  git checkout master
+  479  git merge somefeature
+  480  git log --oneline
+  481  git checkout somefeature
+  482  vi i.txt
+  483  git add .
+  484  git commit -m "added 3rd line to i.txt"
+  485  git log --oneline
+  486  vi i.txt
+  487  git add .
+  488  git commit -m "Added 4th line to i.txt"
+  489  git log --oneline
+  490  git checkout master
+  491  vi e.txt
+  492  git add .
+  493  git commit -m "Added first line to e.txt"
+  494  git log --oneline
+  495  git log --oneline --all
+  496  git log --oneline --all --graph
+  497  git log --oneline
+  498  git log --oneline --all -5
+  499  git log --oneline --all -5 --graph
+  500  git merge somefeature
+  501  git log --oneline --all -5 --graph
+  502  git log --oneline --all
+  503  git log --oneline --all --graph
+  504  git branch -d bugfix
+  505  git log --oneline 
+
 
