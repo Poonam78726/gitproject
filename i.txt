@@ -1,2 +1,4 @@
  This is my first line in i.txt.
- This is my second line in i.txt.
+ This is my second line in i.txt
+ This is thrid line in i.txt.
+ This is forth line in i.txt.
